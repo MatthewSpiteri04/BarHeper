@@ -43,7 +43,7 @@ public class DetailsScreen extends AppCompatActivity {
             mainImage.setImageResource(cocktail.getPhotoId());
 
             if (cocktail.isFavourite) {
-                favImage.setImageResource(R.drawable.ic_heart_not_selected);
+                favImage.setImageResource(R.drawable.ic_heart_selected);
             } else {
                 favImage.setImageResource(R.drawable.ic_heart_not_selected);
             }
